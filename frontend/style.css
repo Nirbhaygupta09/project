@@ -1,0 +1,106 @@
+body{
+  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.title{
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.title-top{
+    font-weight: 200;
+    margin-bottom:0;
+
+}
+
+.title-mid{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  margin-top: 0 ;
+}
+
+.title-bot{
+  width:38%;
+  margin: 0 auto;
+
+}
+
+.card1, .card2, .card3, .card4{
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 5px 4px 10px #cedcee;
+}
+
+.card-info{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+
+}
+
+.card-head{
+
+  color: hsl(234, 12%, 34%);
+}
+
+.card-img{
+  float: right;
+}
+
+
+.card1{
+  left:13.88%;/*200px of 1440*/
+  top: 49.38%;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card2{
+  left:39.58%;/*570px of 1440*/
+  top: 33.33%;
+  border-top: 4px solid hsl(0, 78%, 62%);
+
+}
+
+.card3{
+  left:39.58%;/*570px of 1440*/
+  top:66.66%;
+  border-top: 4px solid hsl(34, 97%, 64%);
+
+
+}
+.card4{
+  left:65.27%;/*940px of 1440*/
+  top:49.38%;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+footer{
+  text-align: center;
+  margin-top: 600px;
+}
+
+
+@media only screen and (max-width:375px) {
+  .card1, .card2, .card3, .card4{
+    display: block;
+    position: static;
+    margin:30px 17.5px 30px 17.5px;
+  }
+  .title-top,.title-mid{
+      font-size: 1.7em;
+
+  }
+  .title-bot{
+    width: 100%;
+  }
+  footer{
+    margin-top: 0;
+  }
+}
